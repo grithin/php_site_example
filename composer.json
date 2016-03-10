@@ -1,0 +1,19 @@
+{
+	"config": {
+		"vendor-dir": "vendor"
+	},
+	"require": {
+		"ext-mcrypt" : "*",
+		"ext-memcached" : "*",
+		"ext-imagick" : "*",
+		"grithin/phpbase": "*",
+		"grithin/phpwebtools": "*",
+		"grithin/phpdb": "*",
+		"grithin/phproute": "*",
+		"grithin/phpinput": "*",
+		"grithin/phptemplate": "*"
+	},
+	"autoload": {
+        "psr-4": {"Tool\\": "tool/"}
+    }
+}
